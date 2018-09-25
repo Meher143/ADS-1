@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 class Percolation {
+	/**
+	 * { var_description }
+	 */
 private boolean[][] matrix;
 /**
  * { var_description }
