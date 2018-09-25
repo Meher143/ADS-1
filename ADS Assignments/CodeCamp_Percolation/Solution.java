@@ -1,24 +1,26 @@
 import java.util.Scanner;
-
+/**
+ * Class for percolation.
+ */
 class Percolation {
 	/**
-	 * { var_description }
+	 * { var_description }.
 	 */
 private boolean[][] matrix;
 /**
- * { var_description }
+ * { var_description }.
  */
 private int top = 0;
 /**
- * { var_description }
+ * { var_description }.
  */
 private int bottom;
 /**
- * { var_description }
+ * { var_description }.
  */
 private int size;
 /**
- * { var_description }
+ * { var_description }.
  */
 private WeightedQuickUnionUF qf;
 /**
