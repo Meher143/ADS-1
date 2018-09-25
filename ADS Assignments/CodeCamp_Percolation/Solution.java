@@ -3,9 +3,9 @@ import java.util.Scanner;
  * Class for percolation.
  */
 class Percolation {
-	/**
-	 * { var_description }.
-	 */
+    /**
+     * { var_description }.
+     */
 private boolean[][] matrix;
 /**
  * { var_description }.
@@ -29,13 +29,16 @@ private WeightedQuickUnionUF qf;
  * @param      n     { parameter_description }
  */
 Percolation(final int n) {
-	size = n;
-	bottom = size * size + 1;
-	qf = new WeightedQuickUnionUF(size * size + 2);
-	matrix = new boolean[size][size];
+    size = n;
+    bottom = size * size + 1;
+    qf = new WeightedQuickUnionUF(size * size + 2);
+    matrix = new boolean[size][size];
 }
 public void open(final int row, final int col) {
-	matrix[row - 1][col - 1] = true;
+    /**
+     * { item_description }.
+     */
+    matrix[row - 1][col - 1] = true;
         if (row == 1) {
             qf.union(getQFIndex(row, col), top);
         }
