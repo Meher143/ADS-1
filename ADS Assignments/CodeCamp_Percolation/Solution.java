@@ -34,10 +34,13 @@ Percolation(final int n) {
     qf = new WeightedQuickUnionUF(size * size + 2);
     matrix = new boolean[size][size];
 }
+/**
+ * { function_description }.
+ *
+ * @param      row   The row
+ * @param      col   The col
+ */
 public void open(final int row, final int col) {
-    /**
-     * { item_description }.
-     */
     matrix[row - 1][col - 1] = true;
         if (row == 1) {
             qf.union(getQFIndex(row, col), top);
