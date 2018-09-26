@@ -72,7 +72,7 @@ class Solution {
             }
         }
         System.out.println(Arrays.toString(result).
-            replace("[" , "").replace("]" , "").replace(" " , ""));
+            replace("[", "").replace("]", "").replace(" ", ""));
     }
 
 }
