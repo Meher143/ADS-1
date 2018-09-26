@@ -59,15 +59,12 @@ class Solution {
             if (i < array1.length && j < array2.length) {
                 if (array1[i] < array2[j]) {
                     result[k] = array1[i++];
-                }
-                else {
+                } else {
                     result[k] = array2[j++];
                 }
-            }
-            else if (i >= array1.length) {
+            } else if (i >= array1.length) {
                 result[k] = array2[j++];
-            }
-            else if (j >= array2.length) {
+            } else if (j >= array2.length) {
                 result[k] = array1[i++];
             }
         }
