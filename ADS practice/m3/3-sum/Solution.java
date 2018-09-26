@@ -13,6 +13,11 @@ final class Solution {
 		 */
 
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(final String[] args) {
 		/**
 		 * { var_description }.
