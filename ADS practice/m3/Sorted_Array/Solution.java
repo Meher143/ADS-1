@@ -71,8 +71,8 @@ class Solution {
                 result[k] = array1[i++];
             }
         }
-        System.out.println(Arrays.toString(result).replace
-            ("[","").replace("]","").replace(" " , ""));
+        System.out.println(Arrays.toString(result).
+            replace("[" , "").replace("]" , "").replace(" " , ""));
     }
 
 }
