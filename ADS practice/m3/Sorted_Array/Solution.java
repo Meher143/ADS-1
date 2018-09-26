@@ -9,7 +9,7 @@ class Solution {
         Scanner input = new Scanner(System.in);
         int a = Integer.parseInt(input.nextLine());
         int b = Integer.parseInt(input.nextLine());
-        String[] t = input.nextLine().split(",");
+        String[] t = input.nextLine().split("");
         String[] s = input.nextLine().split(",");
         int[] array1;
         /**
@@ -22,7 +22,7 @@ class Solution {
          */
         array2 = new int[s.length];
 
-        if(t[0].equals(" ")) {
+        if(t[0].equals("")) {
             array1 = new int[0];
         }
         else {
