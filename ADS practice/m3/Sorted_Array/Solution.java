@@ -7,7 +7,7 @@ class Solution {
 /**
  * Constructs the object.
  */
-    public Solution() {
+    private Solution() {
 
     }
     /**
@@ -52,7 +52,7 @@ class Solution {
 
     }
 /**
- * { function_description }
+ * { function_description }.
  *
  * @param      array1  The array 1
  * @param      array2  The array 2
