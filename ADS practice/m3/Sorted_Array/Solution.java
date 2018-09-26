@@ -9,7 +9,7 @@ class Solution {
         Scanner input = new Scanner(System.in);
         int a = Integer.parseInt(input.nextLine());
         int b = Integer.parseInt(input.nextLine());
-        String[] t = input.nextLine().split("");
+        String[] t = input.nextLine().split(",");
         String[] s = input.nextLine().split(",");
         int[] array1;
         /**
