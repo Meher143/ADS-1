@@ -30,7 +30,7 @@ class Solution {
         }
         else {
             array1 = new int[t.length];
-            for(int i = 0; i < t.length; i++) {
+            for (int i = 0; i < t.length; i++) {
             array1[i] = Integer.parseInt(t[i]);
         }
 
@@ -59,8 +59,9 @@ class Solution {
                 if (array1[i] < array2[j]) {
                     result[k] = array1[i++];
                 }
-                else
+                else {
                     result[k] = array2[j++];
+                }
             }
             else if (i >= array1.length) {
                 result[k] = array2[j++];
@@ -71,7 +72,7 @@ class Solution {
         }
         System.out.println(Arrays.toString(result).replace("[",
          "").replace("]",
-         "").replace(" ",""));
+         "").replace(" " , ""));
     }
 
 }
