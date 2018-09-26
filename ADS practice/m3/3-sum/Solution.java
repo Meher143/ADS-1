@@ -1,7 +1,16 @@
 import java.util.Arrays;
 import java.util.Scanner;
+/**
+ * { item_description }.
+ */
 final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
+		/**
+		 * { item_description }.
+		 */
 
 	}
 	public static void main(String[] args) {
@@ -14,8 +23,8 @@ final class Solution {
 		Arrays.sort(arr);
 		int count = 0;
 		for (int i = 0; i < size; i++) {
-			for (int j = i+1; j < size; j++) {
-				int k = Arrays.binarySearch(arr, -(arr[i] + arr[j]));
+			for (int j = i + 1; j < size; j++) {
+				int k = Arrays.binarySearch(arr, - (arr[i] + arr[j]));
 				if (k > j) {
 					count++;
 				}
