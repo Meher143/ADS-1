@@ -4,12 +4,18 @@ import java.util.Arrays;
  * Class for solution.
  */
 class Solution {
+/**
+ * Constructs the object.
+ */
+    public Solution() {
+
+    }
     /**
      * { function_description }.
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner input = new Scanner(System.in);
         int a = Integer.parseInt(input.nextLine());
         int b = Integer.parseInt(input.nextLine());
@@ -28,15 +34,14 @@ class Solution {
 
         if (t[0].equals("")) {
             array1 = new int[0];
-        }
-        else {
+        } else {
             array1 = new int[t.length];
             for (int i = 0; i < t.length; i++) {
             array1[i] = Integer.parseInt(t[i]);
         }
 
         }
-        for (int i = 0; i<s.length; i++) {
+        for (int i = 0; i < s.length; i++) {
             array2[i] = Integer.parseInt(s[i]);
         }
 
@@ -46,15 +51,21 @@ class Solution {
         sort(array1, array2);
 
     }
+/**
+ * { function_description }
+ *
+ * @param      array1  The array 1
+ * @param      array2  The array 2
+ */
 
-    public static void sort(int[] array1, int[] array2) {
+    public static void sort(final int[] array1, final int[] array2) {
         /**
          * { var_description }.
          */
         int i = 0;
         int j = 0;
-        int [] result;
-        result = new int[array1.length+array2.length];
+        int[] result;
+        result = new int[array1.length + array2.length];
         for (int k = 0; k < result.length; k++) {
             if (i < array1.length && j < array2.length) {
                 if (array1[i] < array2[j]) {
