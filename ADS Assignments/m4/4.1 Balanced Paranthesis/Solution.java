@@ -125,7 +125,7 @@ public final class Solution {
             if (b.areBalanced(arr)) {
                 System.out.println("YES");
             } else {
-                System.out.println("NoSuchFieldException");
+                System.out.println("NO");
             }
             noofinputs--;
         }
