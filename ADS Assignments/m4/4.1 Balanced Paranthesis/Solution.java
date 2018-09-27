@@ -69,9 +69,9 @@ class IsBalanced {
             return true;
         }
         if (str1.equals("[") && str2.equals("]")) {
-            return true;
+            return false;
         }
-        return false;
+        return true;
     }
     /**
      * areBalanced method to check
