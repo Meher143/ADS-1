@@ -69,9 +69,9 @@ class IsBalanced {
             return true;
         }
         if (str1.equals("[") && str2.equals("]")) {
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     /**
      * areBalanced method to check
@@ -109,6 +109,11 @@ public final class Solution {
     private Solution() {
 
     }
+    /**
+     * { function_description }.
+     *
+     * @param      args  The arguments
+     */
     
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -118,9 +123,9 @@ public final class Solution {
             String[] arr = line.split("");
             IsBalanced b = new IsBalanced();
             if (b.areBalanced(arr)) {
-                System.out.println("NO");
-            } else {
                 System.out.println("YES");
+            } else {
+                System.out.println("NoSuchFieldException");
             }
             noofinputs--;
         }
