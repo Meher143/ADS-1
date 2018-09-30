@@ -1,6 +1,6 @@
 import java.util.Scanner;
-import java.util.Arrays;
-class Node {
+import java.util.*;
+/*class Node {
 	String data;
 	Node next;
 	Node() {
@@ -61,23 +61,30 @@ class Stack {
 	int size() {
 		return l1.size();
 	}
-}
+}*/
 
 class AddLargeNumbers {
-      private static LinkedList lobj = new LinkedList();
+      //private static LinkedList lobj = new LinkedList();
     
     public static LinkedList numberToDigits(String number) {
-        LinkedList object = new LinkedList();
+        LinkedList<Integer> obj = new LinkedList<Integer>();
         for (int i = 0; i < number.length(); i++) {
+        	obj.add(number.charAt(i) - '0');
         }
-        System.out.println(object);
-        return object;
+        return obj;
 
 }
 
 public static String digitsToNumber(LinkedList list) {
-return null;
+int digits = 0;
+String str = "";
+int l1 = list.size();
+for (int i = 0; i < l1; i++) {
+	digits = (Integer)((list.get(i)));
+	str += Integer.toString(digits);
     }
+    return str;
+}
 
 public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
 return null;
