@@ -84,7 +84,7 @@ class Steque {
  * Class for solution.
  */
 class Solution {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
         Steque st = new Steque();
