@@ -40,10 +40,10 @@ class Steque {
 		size++;
 
 	}
-	String pop() {
-		// if (isEmpty()) {
-		// 	throw new Exception("Steque is Empty");
-		// }
+	String pop()throws Exception {
+		if (isEmpty()) {
+			throw new Exception("Steque is empty.");
+		}
        String data = start.data;
        start = start.next;
        size--;
@@ -76,7 +76,16 @@ class Solution {
 				System.out.println(st);
 				break;
 				case "pop":
-				st.pop();
+				try {
+					st.pop();
+					if (st.isEmpty()) {
+						System.out.println("Steque is empty.");
+					} else {
+						System.out.println(st);
+					}
+				} catch(Exception e) {
+					System.out.println(e.getMessage());
+				}				
 				break;
 				case "enqueue":
 				st.enqueue(input[1]);
