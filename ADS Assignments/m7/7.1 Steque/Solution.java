@@ -89,6 +89,7 @@ class Steque {
      * { function_description }.
      * @param      item  The item
      */
+    //The time complexcity of this method is 0(1)
     void push(final String item) {
         Node obj = new Node(item);
         if (size == 0) {
@@ -106,6 +107,7 @@ class Steque {
      * { function_description }.
      * @param      item  The item
      */
+    // The time complexcity of this method is 0(N)
     void enqueue(final String item) {
         Node obj = new Node(item);
         if (size == 0) {
@@ -123,6 +125,7 @@ class Steque {
      * @return     { description_of_the_return_value }
      * @throws     Exception  { exception_description }
      */
+    //The time complexcity of this method is 0(1)
     String pop() throws Exception {
         if (isEmpty()) {
             throw new Exception("Steque is empty.");
@@ -143,6 +146,7 @@ class Steque {
      * Returns a string representation of the object.
      * @return     String representation of the object.
      */
+    //The time complexcity of this method is 0(N)s
     public String toString() {
         // if(isEmpty()){
 
