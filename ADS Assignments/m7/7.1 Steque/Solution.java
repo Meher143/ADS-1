@@ -6,10 +6,34 @@ class Node {
     /**
      * { var_description }.
      */
-    String data;
-    Node next;
-    Node(String item) {
+    private String data;
+    /**
+     * { var_description }.
+     */
+    private Node next;
+    /**
+     * Constructs the object.
+     * @param      item  The item
+     */
+    Node(final String item) {
         this.data = item;
+    }
+    /**
+     * gets the data.
+     * @return     { description_of_the_return_value }
+     */
+    String getdata() {
+        return data;
+    }
+    /**
+     * gets the next.
+     * @return     { description_of_the_return_value }
+     */
+    Node getnext() {
+        return next;
+    }
+    void setnext(Node s) {
+        next = s;
     }
 }
 /**
@@ -19,13 +43,48 @@ class Steque {
     /**
      * { item_description }.
      */
-    Node start, end;
-    int size = 0;
+    private Node start;
+    /**
+     * { var_description }.
+     */
+    private Node end;
+    /**
+     * { var_description }.
+     */
+    private int size = 0;
+    /**
+     * Constructs the object.
+     */
     Steque() {
         start = null;
         end = null;
     }
-    void push(String item) {
+    /**
+     * gets the start.
+     * @return     { description_of_the_return_value }
+     */
+    Node getstart() {
+        return start;
+    }
+    /**
+     * gets the end.
+     * @return     { description_of_the_return_value }
+     */
+    Node getend() {
+        return end;
+    }
+    /**
+     * gets the size.
+     * @return     { description_of_the_return_value }
+     */
+    int getsize() {
+        return size;
+    }
+    /**
+     * { function_description }.
+     * @param      item  The item
+     */
+    void push(final String item) {
         Node obj = new Node(item);
         if (size == 0) {
             start = obj;
@@ -33,12 +92,16 @@ class Steque {
             size++;
             return;
         }
-        obj.next = start;
+        obj.setnext(start);
         start = obj;
         size++;
 
     }
-    void enqueue(String item) {
+    /**
+     * { function_description }.
+     * @param      item  The item
+     */
+    void enqueue(final String item) {
         Node obj = new Node(item);
         if (size == 0) {
             start = obj;
@@ -46,25 +109,33 @@ class Steque {
             size++;
             return;
         }
-        end.next = obj;
+        end.setnext(obj);
         end = obj;
         size++;
     }
+    /**
+     * { function_description }.
+     * @return     { description_of_the_return_value }
+     * @throws     Exception  { exception_description }
+     */
     String pop() throws Exception {
         if (isEmpty()) {
             throw new Exception("Steque is empty.");
         }
-        String data = start.data;
-        start = start.next;
+        String data = start.getdata();
+        start = start.getnext();
         size--;
         return data;
     }
+    /**
+     * Determines if empty.
+     * @return     True if empty, False otherwise.
+     */
     boolean isEmpty() {
         return size == 0;
     }
     /**
      * Returns a string representation of the object.
-     *
      * @return     String representation of the object.
      */
     public String toString() {
@@ -74,8 +145,8 @@ class Steque {
         Node temp = start;
         String res = "";
         while (temp != null) {
-            res += temp.data + ", ";
-            temp = temp.next;
+            res += temp.getdata() + ", ";
+            temp = temp.getnext();
         }
         return res.substring(0, res.length() - 2);
     }
@@ -83,7 +154,13 @@ class Steque {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
