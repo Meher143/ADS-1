@@ -32,7 +32,12 @@ class Node {
     Node getnext() {
         return next;
     }
-    void setnext(Node s) {
+    /**
+     * sets the next.
+     *
+     * @param      s     { parameter_description }
+     */
+    void setnext(final Node s) {
         next = s;
     }
 }
@@ -161,12 +166,16 @@ final class Solution {
     private Solution() {
 
     }
+    /**
+     * main method.
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
         Steque st = new Steque();
         while (sc.hasNextLine()) {
-            String input[] = sc.nextLine().split(" ");
+            String[] input = sc.nextLine().split(" ");
             switch (input[0]) {
             case "push":
                 st.push(input[1]);
