@@ -3,6 +3,9 @@ import java.util.Scanner;
  * Class for node.
  */
 class Node {
+    /**
+     * { var_description }.
+     */
     String data;
     Node next;
     Node(String item) {
@@ -13,6 +16,9 @@ class Node {
  * Class for steque.
  */
 class Steque {
+    /**
+     * { item_description }.
+     */
     Node start, end;
     int size = 0;
     Steque() {
