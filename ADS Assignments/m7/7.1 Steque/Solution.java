@@ -59,7 +59,7 @@ class Steque {
 			res += temp.data + ",";
 			temp = temp.next;
 		}
-		return res;
+		return res.substring(0,res.length()-2);
 	}
 }
 
