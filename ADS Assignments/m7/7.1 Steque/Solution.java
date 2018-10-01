@@ -1,4 +1,7 @@
 import java.util.Scanner;
+/**
+ * Class for node.
+ */
 class Node {
 	String data;
 	Node next;
@@ -6,6 +9,9 @@ class Node {
 		this.data = item;
 	}
 }
+/**
+ * Class for steque.
+ */
 class Steque {
 	Node start, end;
 	int size = 0;
@@ -50,6 +56,11 @@ class Steque {
 	boolean isEmpty() {
 		return size == 0;
 	}
+	/**
+	 * Returns a string representation of the object.
+	 *
+	 * @return     String representation of the object.
+	 */
 	public String toString() {
 		// if(isEmpty()){
 
@@ -63,6 +74,9 @@ class Steque {
 		return res.substring(0, res.length() - 2);
 	}
 }
+/**
+ * Class for solution.
+ */
 class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
