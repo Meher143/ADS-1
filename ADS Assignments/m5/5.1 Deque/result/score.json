@@ -1,1 +1,1 @@
-{"problem_id": "ads1_m5_a1", "user_id": "Meher143", "score": "5/5", "check_style_score": "1/1"}
+{"version": "1", "message": "ERROR: Hidden Testcases server unreachable.", "problem_id": "ads1_m5_a1", "user_id": "Meher143", "score": {"sample": {"0": {"execution_time": 0.5010817050933838, "passed": true}, "1": {"execution_time": 0.31053948402404785, "passed": true}, "2": {"execution_time": 0.3273303508758545, "passed": true}, "3": {"execution_time": 0.4414644241333008, "passed": true}, "4": {"execution_time": 4.629364728927612, "passed": true}}}, "check_style_score": "1/1"}
