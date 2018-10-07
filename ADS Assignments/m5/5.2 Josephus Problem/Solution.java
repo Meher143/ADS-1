@@ -100,7 +100,7 @@ public final class Solution {
             while (!n.isEmpty()) {
                 int t2 = 0, t1 = 0;
                 for (int i = 0; i < cut; i++) {
-                    if (i != cut + 1) {
+                    if (i != cut - 1) {
                         t1 = n.dequeue();
                         n.enqueue(t1);
                     } else {
