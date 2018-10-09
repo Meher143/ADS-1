@@ -87,12 +87,12 @@ public class Solution {
         int leftNode = 2 * i + 1;
         int rightNode = 2 * i + 2;
         int largestNumber = i;
-        if (
-            leftNode < heapSize && inputArray[leftNode] > inputArray[largestNumber]) {
+        if 
+            (leftNode < heapSize && inputArray[leftNode] > inputArray[largestNumber]) {
             largestNumber = leftNode;
         }
-        if (
-            rightNode < heapSize && inputArray[rightNode] > inputArray[largestNumber]) {
+        if 
+            (rightNode < heapSize && inputArray[rightNode] > inputArray[largestNumber]) {
             largestNumber = rightNode;
         }
         if (largestNumber != i) {
@@ -122,11 +122,9 @@ public class Solution {
     static void minHeapify(
         final int[] inputArray, final int i, final int heapSize) {
         int leftNode = 2 * i + 1;
-        int 
-        rightNode = 2 * i + 2;
+        int rightNode = 2 * i + 2;
         int smallest = i;
         if (leftNode < heapSize && inputArray[leftNode] < inputArray[smallest]) {
-            
             smallest = leftNode;
         }
         if (rightNode < heapSize && inputArray[rightNode] < inputArray[smallest]) {
