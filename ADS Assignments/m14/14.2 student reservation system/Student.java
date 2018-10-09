@@ -5,11 +5,23 @@ class Students {
     /**
      * arr array of type StudentInfo.
      */
-    StudentInfo[] arr;
+    private StudentInfo[] arr;
+    
+    /**
+     * getter func.
+     *
+     * @param      index  The index
+     *
+     * @return     studentinfo.
+     */
+    StudentInfo arr(final int index) {
+        return arr[index];
+    }
+
     /**
      * size of array.
      */
-    int size;
+    private int size;
     /**
      * Constructs the object.
      * @param      s     size of array.
