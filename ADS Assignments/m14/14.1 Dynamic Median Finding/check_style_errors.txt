@@ -1,9 +1,8 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:90: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:91: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:94: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:95: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:127: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:130: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:95: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:128: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:132: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 5 errors.
