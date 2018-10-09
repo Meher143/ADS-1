@@ -1,7 +1,4 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:51:8: Unused @param tag for 'y'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:52:8: Unused @param tag for 'm'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:53:8: Unused @param tag for 'd'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:61:45: Expected @param tag for 'dob'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:48: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 1 errors.

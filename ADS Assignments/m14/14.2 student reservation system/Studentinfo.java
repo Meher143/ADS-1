@@ -45,19 +45,18 @@ class StudentInfo implements Comparable<StudentInfo> {
     StudentInfo() {
 
     }
+    
     /**
      * Constructs the object.
-     * @param      n      studentname.
-     * @param      y      year.
-     * @param      m      month.
-     * @param      d      day.
+     *
+     * @param      n      { parameter_description }
+     * @param      dob    The dob
      * @param      m1     The m 1
      * @param      m2     The m 2
      * @param      m3     The m 3
      * @param      total  The total
-     * @param      r      reservationcat.
+     * @param      r      { parameter_description }
      */
-
     StudentInfo(final String n, final int[] dob, final int m1, final int m2,
         final int m3, final int total, final String r) {
         studentname = n;
