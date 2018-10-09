@@ -139,7 +139,7 @@ public class Solution {
      * @param      j      { integer variable }
      */
     static void swap(final int[] inputArray, final int i, final int j) {
-        if (i != j) {
+        if (i == j) {
             return;
         }
         int temp = inputArray[i];
