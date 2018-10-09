@@ -82,7 +82,8 @@ public class Solution {
      * @param      i         { integer variable }
      * @param      heapSize  The heap size
      */
-    static void maxHeapify(final int[] inputArray, final int i, final int heapSize) {
+    static void maxHeapify(
+        final int[] inputArray, final int i, final int heapSize) {
         int leftNode = 2 * i + 1;
         int rightNode = 2 * i + 2;
         int largestNumber = i;
@@ -116,7 +117,8 @@ public class Solution {
      * @param      i         { integer variable }
      * @param      heapSize  The heap size
      */
-    static void minHeapify(final int[] inputArray, final int i, final int heapSize) {
+    static void minHeapify(
+        final int[] inputArray, final int i, final int heapSize) {
         int leftNode = 2 * i + 1;
         int rightNode = 2 * i + 2;
         int smallest = i;

@@ -1,9 +1,7 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:85: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:89: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:92: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:119: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:123: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:126: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:90: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:93: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:125: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:128: Line is longer than 80 characters (found 83). [LineLength]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 4 errors.
