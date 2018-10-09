@@ -45,7 +45,7 @@ class StudentInfo implements Comparable<StudentInfo> {
     StudentInfo() {
 
     }
-    
+
     /**
      * Constructs the object.
      *

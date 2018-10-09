@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:48: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 1 errors.
