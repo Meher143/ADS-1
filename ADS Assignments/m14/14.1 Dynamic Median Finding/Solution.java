@@ -125,10 +125,12 @@ public class Solution {
         int leftNode = 2 * i + 1;
         int rightNode = 2 * i + 2;
         int smallest = i;
-        if (leftNode < heapSize && inputArray[leftNode] < inputArray[smallest]) {
+        if (leftNode < heapSize
+            && inputArray[leftNode] < inputArray[smallest]) {
             smallest = leftNode;
         }
-        if (rightNode < heapSize && inputArray[rightNode] < inputArray[smallest]) {
+        if (rightNode < heapSize
+            && inputArray[rightNode] < inputArray[smallest]) {
             smallest = rightNode;
         }
         if (smallest != i) {

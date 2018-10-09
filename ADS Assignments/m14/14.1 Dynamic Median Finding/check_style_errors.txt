@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:128: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.1 Dynamic Median Finding\Solution.java:131: Line is longer than 80 characters (found 83). [LineLength]
 Audit done.
-Checkstyle ends with 2 errors.
