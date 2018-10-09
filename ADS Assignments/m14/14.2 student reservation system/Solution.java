@@ -58,14 +58,16 @@ public final class Solution {
             noofunreversedcat--;
             cnt++;
         }
+        StudentInfo si = new StudentInfo();
         StudentInfo[] reservstu = new StudentInfo[noofvacancies
         - noofunreversedcat];
         int sizee = 0;
+        String reservationcat = si.getreservationcat();
         for (int i = cnt; i < noofstudents; i++) {
             if (noofbccat == 0) {
                 break;
             }
-            if (s.arr[i].reservationcat.
+            if (s.arr[i].getreservationcat().
                     equals("BC")) {
                 reservstu[sizee++] = s.show(i);
                 noofvacancies--;
@@ -76,7 +78,7 @@ public final class Solution {
             if (noofstcat == 0) {
                 break;
             }
-            if (s.arr[i].reservationcat.
+            if (s.arr[i].getreservationcat().
                     equals("ST")) {
                 reservstu[sizee++] = s.show(i);
                 noofvacancies--;
@@ -87,7 +89,7 @@ public final class Solution {
             if (noofsccat == 0) {
                 break;
             }
-            if (s.arr[i].reservationcat.
+            if (s.arr[i].getreservationcat().
                     equals("SC")) {
                 reservstu[sizee++] = s.show(i);
                 noofvacancies--;
@@ -98,7 +100,7 @@ public final class Solution {
             if (noofvacancies == 0) {
                 break;
             }
-            if (s.arr[i].reservationcat.
+            if (s.arr[i].getreservationcat().
                     equals("Open")) {
                 reservstu[sizee++] = s.show(i);
                 noofvacancies--;

@@ -1,14 +1,8 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:8:12: Variable 'studentname' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:12:9: Variable 'year' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:16:9: Variable 'month' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:20:9: Variable 'date' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:24:9: Variable 'marks1' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:28:9: Variable 'marks2' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:32:9: Variable 'marks3' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:36:9: Variable 'totalmarks' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:40:12: Variable 'reservationcat' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:53:5: More than 7 parameters (found 9). [ParameterNumber]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:115: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:41: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:42:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:57:5: More than 7 parameters (found 9). [ParameterNumber]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:70:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:122:34: '+' should be on a new line. [OperatorWrap]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 5 errors.

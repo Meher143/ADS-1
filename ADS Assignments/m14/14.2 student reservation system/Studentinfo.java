@@ -5,39 +5,43 @@ class StudentInfo implements Comparable<StudentInfo> {
     /**
      * studentname of type String.
      */
-    String studentname;
+    private String studentname;
     /**
      * year of type int.
      */
-    int year;
+    private int year;
     /**
      * month of type int.
      */
-    int month;
+    private int month;
     /**
      * date of type int.
      */
-    int date;
+    private int date;
     /**
      * marks1 of type int.
      */
-    int marks1;
+    private int marks1;
     /**
      * marks2 of type int.
      */
-    int marks2;
+    private int marks2;
     /**
      * marks3 of type int.
      */
-    int marks3;
+    private int marks3;
     /**
      * totalmarks of type int.
      */
-    int totalmarks;
+    private int totalmarks;
     /**
      * reservationcat of type String.
      */
-    String reservationcat;
+    private String reservationcat;
+    
+    StudentInfo() {
+
+    }
     /**
      * Constructs the object.
      * @param      n      studentname.
@@ -62,6 +66,9 @@ class StudentInfo implements Comparable<StudentInfo> {
         marks3 = m3;
         totalmarks = total;
         reservationcat = r;
+    }
+    String getreservationcat() {
+        return reservationcat;
     }
     /**
      * compareTo method.
@@ -112,6 +119,7 @@ class StudentInfo implements Comparable<StudentInfo> {
      * @return     String representation of the object.
      */
     public String toString() {
-        return studentname + "," + Integer.toString(totalmarks) + "," + reservationcat;
+        return studentname + "," +
+        Integer.toString(totalmarks) + "," + reservationcat;
     }
 }
