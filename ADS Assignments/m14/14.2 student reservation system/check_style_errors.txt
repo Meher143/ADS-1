@@ -1,8 +1,7 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:41: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:42:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:57:5: More than 7 parameters (found 9). [ParameterNumber]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:70:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:122:34: '+' should be on a new line. [OperatorWrap]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:51:8: Unused @param tag for 'y'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:52:8: Unused @param tag for 'm'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:53:8: Unused @param tag for 'd'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m14\14.2 student reservation system\Studentinfo.java:61:45: Expected @param tag for 'dob'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 4 errors.

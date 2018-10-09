@@ -36,8 +36,8 @@ public final class Solution {
             arr[1].split("-")[1]);
             int date = Integer.parseInt(
             arr[1].split("-")[0]);
-            s.add(new StudentInfo(arr[0], year, month,
-            date, Integer.parseInt(arr[2]),
+            int[] dob = {year, month, date};
+            s.add(new StudentInfo(arr[0], dob, Integer.parseInt(arr[2]),
             Integer.parseInt(arr[three]),
             Integer.parseInt(arr[four]),
             Integer.parseInt(arr[five]), arr[six]));

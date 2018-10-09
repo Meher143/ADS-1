@@ -38,7 +38,10 @@ class StudentInfo implements Comparable<StudentInfo> {
      * reservationcat of type String.
      */
     private String reservationcat;
-    
+
+    /**
+     * Constructs the object.
+     */
     StudentInfo() {
 
     }
@@ -54,19 +57,25 @@ class StudentInfo implements Comparable<StudentInfo> {
      * @param      total  The total
      * @param      r      reservationcat.
      */
-    StudentInfo(final String n, final int y, final int m,
-        final int d, final int m1, final int m2,
+
+    StudentInfo(final String n, final int[] dob, final int m1, final int m2,
         final int m3, final int total, final String r) {
         studentname = n;
-        year = y;
-        month = m;
-        date = d;
+        year = dob[0];
+        month = dob[1];
+        date = dob[2];
         marks1 = m1;
         marks2 = m2;
         marks3 = m3;
         totalmarks = total;
         reservationcat = r;
     }
+
+    /**
+     * getter func for categeory.
+     *
+     * @return   reservation categeory.
+     */
     String getreservationcat() {
         return reservationcat;
     }
@@ -119,7 +128,7 @@ class StudentInfo implements Comparable<StudentInfo> {
      * @return     String representation of the object.
      */
     public String toString() {
-        return studentname + "," +
-        Integer.toString(totalmarks) + "," + reservationcat;
+        return studentname + ","
+        + Integer.toString(totalmarks) + "," + reservationcat;
     }
 }
