@@ -32,7 +32,7 @@ class Stock implements Comparable<Stock> {
         return this.i;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @return     { description_of_the_return_value }.
      */
@@ -85,7 +85,7 @@ final class Solution {
     private Solution() {
         }
         /**
-         * { function_description }
+         * { function_description }.
          *
          * @param      args  The arguments
          */
@@ -126,7 +126,3 @@ final class Solution {
         }
     }
 }
-
-        
-
-
