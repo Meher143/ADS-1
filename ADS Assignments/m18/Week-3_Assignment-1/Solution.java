@@ -4,15 +4,15 @@ import java .util.Scanner;
  */
 class Stock implements Comparable<Stock> {
     /**
-     * { var_description }
+     * { var_description }.
      */
     private long sum;
     /**
-     * { var_description }
+     * { var_description }.
      */
     private int i;
     /**
-     * { var_description }
+     * { var_description }.
      */
     private int j;
     /**
@@ -50,6 +50,13 @@ class Stock implements Comparable<Stock> {
         this.i = fi;
         this.j = fj;
     }
+    /**
+     * { function_description }.
+     *
+     * @param      obj   The object
+     *
+     * @return     { description_of_the_return_value }
+     */
      public int compareTo(final Stock obj) {
         if (this.sum < obj.getSum()) {
             return -1;
@@ -69,7 +76,7 @@ class Stock implements Comparable<Stock> {
     }
 }
 /**
- * { item_description }
+ * { item_description }.
  */
 final class Solution {
     /**
@@ -82,7 +89,7 @@ final class Solution {
          *
          * @param      args  The arguments
          */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
      Scanner sc = new Scanner(System.in);
      int n = sc.nextInt();
      int m = sc.nextInt();
@@ -99,10 +106,12 @@ final class Solution {
         while (!pq.isEmpty()) {
             Stock current = pq.delMin();
             if (current.getSum() == previous.getSum()) {
+                //The time complexcity is N
                 pair++;
                 if (pair == m) {
                     count++;
                 }
+                //The time complexcity is N
                 if (n == count) {
                     System.out.println(current);
                     break;

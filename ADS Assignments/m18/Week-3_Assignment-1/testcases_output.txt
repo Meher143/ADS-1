@@ -77,7 +77,7 @@ Exception in thread "main" java.util.InputMismatchException
 	at java.base/java.util.Scanner.next(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:95)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -158,7 +158,7 @@ Exception in thread "main" java.util.InputMismatchException
 	at java.base/java.util.Scanner.next(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:95)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -244,7 +244,7 @@ Exception in thread "main" java.util.InputMismatchException
 	at java.base/java.util.Scanner.next(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:95)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -330,7 +330,7 @@ Exception in thread "main" java.util.InputMismatchException
 	at java.base/java.util.Scanner.next(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:95)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -431,5 +431,5 @@ Exception in thread "main" java.util.InputMismatchException
 	at java.base/java.util.Scanner.next(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
 	at java.base/java.util.Scanner.nextInt(Unknown Source)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:95)
 ----------------------------------------
