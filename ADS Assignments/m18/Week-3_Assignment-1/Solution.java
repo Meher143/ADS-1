@@ -1,17 +1,50 @@
 import java .util.Scanner;
+/**
+ * Class for stock.
+ */
 class Stock implements Comparable<Stock> {
+    /**
+     * { var_description }
+     */
     private long sum;
+    /**
+     * { var_description }
+     */
     private int i;
+    /**
+     * { var_description }
+     */
     private int j;
+    /**
+     * Gets the sum.
+     *
+     * @return     The sum.
+     */
     Long getSum() {
         return this.sum;
     }
+    /**
+     * { function_description }.
+     *
+     * @return     { description_of_the_return_value }
+     */
     int geti() {
         return this.i;
     }
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }.
+     */
     int getj() {
         return this.j;
     }
+    /**
+     * Constructs the object.
+     *
+     * @param      fi    { parameter_description }
+     * @param      fj    { parameter_description }
+     */
     Stock(final int fi, final int fj) {
         this.sum = fi + fj;
         this.i = fi;
@@ -26,16 +59,29 @@ class Stock implements Comparable<Stock> {
         }
         return 0;
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         return sum + "";
     }
-
 }
-
+/**
+ * { item_description }
+ */
 final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
-
-    }
+        }
+        /**
+         * { function_description }
+         *
+         * @param      args  The arguments
+         */
     public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
      int n = sc.nextInt();
