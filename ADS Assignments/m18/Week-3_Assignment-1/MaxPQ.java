@@ -59,6 +59,7 @@ public class MaxPQ<Key> {
      * using sink-based heap construction.
      * @param  keys the array of keys
      */
+    //Time Complexcity is N^2.
     public MaxPQ(final Key[] keys) {
         n = keys.length;
         pq = (Key[]) new Object[keys.length + 1];
@@ -89,6 +90,7 @@ public class MaxPQ<Key> {
      * Returns a largest key on this priority queue.
      * @return a largest key on this priority queue
      */
+    //Time Complexcity is 1.
     public Key max() {
         if (isEmpty()) {
             return null;
@@ -102,6 +104,7 @@ public class MaxPQ<Key> {
      *
      * @param      capacity  The capacity
      */
+    //Time Complexcity is N.
     private void resize(final int capacity) {
         Key[] temp = (Key[]) new Object[capacity];
         for (int i = 1; i <= n; i++) {
@@ -113,6 +116,7 @@ public class MaxPQ<Key> {
      * Adds a new key to this priority queue.
      * @param  x the new key to add to this priority queue
      */
+    //Time Complexcity is 1.
     public void insert(final Key x) {
         // double size of array if necessary
         if (n == pq.length - 1) {
@@ -143,6 +147,7 @@ public class MaxPQ<Key> {
      * swim method.
      * @param      k     index.
      */
+    //Time Complexcity is N.
     private void swim(final int k) {
         int k1 = k;
         while (k1 > 1 && less(k1 / 2, k1)) {
@@ -154,6 +159,7 @@ public class MaxPQ<Key> {
      * sink method.
      * @param      k     index.
      */
+    //Time Complexcity is N.
     private void sink(final int k) {
         int k1 = k;
         while (2 * k1 <= n) {
@@ -174,6 +180,7 @@ public class MaxPQ<Key> {
      * @param      j     index.
      * @return     true or false.
      */
+    //Time Complexcity is 1.
     private boolean less(final int i, final int j) {
         if (comparator == null) {
             return ((Comparable<Key>) pq[i]).compareTo(pq[j]) < 0;
@@ -203,6 +210,7 @@ public class MaxPQ<Key> {
      * @param      k     index.
      * @return     True if maximum heap, False otherwise.
      */
+    //Time Complexcity is 1.
     private boolean isMaxHeap(final int k) {
         if (k > n) {
             return true;

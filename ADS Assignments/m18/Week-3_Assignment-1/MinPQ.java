@@ -53,6 +53,7 @@ public class MinPQ<Key> {
      * helper function to double the size of the heap array.
      * @param      capacity  The capacity
      */
+    //Time Complexcity is N.
     private void resize(final int capacity) {
         assert capacity > n;
         Key[] temp = (Key[]) new Object[capacity];
@@ -65,6 +66,7 @@ public class MinPQ<Key> {
      * Adds a new key to this priority queue.
      * @param  x the key to add to this priority queue
      */
+    //Time Complexcity is 1.
     public void insert(final Key x) {
         // double size of array if necessary
         if (n == pq.length - 1) {
@@ -78,6 +80,7 @@ public class MinPQ<Key> {
      * Removes and returns a smallest key on this priority queue.
      * @return a smallest key on this priority queue
      */
+    //Time complexcity is 1.
     public Key delMin() {
         Key min = pq[1];
         exch(1, n--);
@@ -92,6 +95,7 @@ public class MinPQ<Key> {
      * swim method.
      * @param      k     index.
      */
+    //Time Complexcity is N.
     private void swim(final int k) {
         int k1 = k;
         while (k1 > 1 && greater(k1 / 2, k1)) {
@@ -103,6 +107,7 @@ public class MinPQ<Key> {
      * sink method.
      * @param      k     index.
      */
+    //Time Complexcity is N.
     private void sink(final int k) {
         int k1 = k;
         while (2 * k1 <= n) {

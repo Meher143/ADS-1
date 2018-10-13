@@ -106,12 +106,10 @@ final class Solution {
         while (!pq.isEmpty()) {
             Stock current = pq.delMin();
             if (current.getSum() == previous.getSum()) {
-                //The time complexcity is N
                 pair++;
                 if (pair == m) {
                     count++;
                 }
-                //The time complexcity is N
                 if (n == count) {
                     System.out.println(current);
                     break;
