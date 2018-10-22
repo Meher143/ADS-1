@@ -428,7 +428,7 @@ class BinaryST {
      * @return     node
      */
     private Node select(final Node x, final int k) {
-        if (x != null) {
+        if (x == null) {
             return null;
         }
         //System.out.println(x.toString());
