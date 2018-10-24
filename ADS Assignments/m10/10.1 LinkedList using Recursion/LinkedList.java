@@ -23,6 +23,7 @@ class LinkedList {
     }
     /**
      * insertAt method.
+     * The time complexcity is O(1).
      *
      * @param      pos        The position
      * @param      ele        The ele
@@ -38,6 +39,7 @@ class LinkedList {
     }
     /**
      * Oveloading insertAt method.
+     * The time complexcity is O(1).
      *
      * @param      pos    The position
      * @param      first  The first
@@ -57,6 +59,7 @@ class LinkedList {
     }
     /**
      * reverse method.
+     * The time complexcity is O(1).
      */
     public void reverse() {
         reverse(null, head);
@@ -77,6 +80,7 @@ class LinkedList {
     }
     /**
      * display method.
+     * The time complexcity is O(N).
      */
     void display() {
         Node temp = head;
