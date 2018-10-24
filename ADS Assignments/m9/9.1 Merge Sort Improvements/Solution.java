@@ -83,7 +83,7 @@ class Merge {
     /**
      * {Method for insertion sort}.
      * sort from a[lo] to a[hi].
-     * Time complexity of insertion sort is O(N^2/2).
+     * Time complexity of insertion sort is O(N^2).
      * @param      a     {Comparable array}.
      * @param      lo    The lower value
      * @param      hi    The higher value
