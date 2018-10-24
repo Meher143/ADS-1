@@ -93,7 +93,7 @@ class MinHeap<Key extends Comparable<Key>> {
         return pq[i].compareTo(pq[j]) >= 0;
     }
     /**
-     * Time complexity of check method is log(N).
+     * Time complexity of check method is O(N).
      */
     /**
      * checks if parent element is less than child element.
@@ -103,7 +103,7 @@ class MinHeap<Key extends Comparable<Key>> {
     public boolean check() {
         int k = n - 1;
         while (k > 0) {
-            if (!less(k, (k + 1) / 2)) {
+            if (!less(k, (k - 1) / 2)) {
                 return false;
             }
             k--;
