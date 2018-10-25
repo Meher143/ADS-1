@@ -186,7 +186,7 @@ final class Solution {
             }
             st.put(notes[i], --p);
         }
-        return "No";
+        return "Yes";
     }
 
     /**
