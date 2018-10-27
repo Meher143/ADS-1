@@ -3,6 +3,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31:54: 'name' hides a field. [HiddenField]
 [ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31:54: Expected @param tag for 'name'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:85: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:39:8: Unused @param tag for 'The'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:41: Expected @return tag. [JavadocMethod]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 6 errors.
