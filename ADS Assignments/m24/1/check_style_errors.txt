@@ -1,0 +1,23 @@
+Starting audit...
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:3:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:4:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:9: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:9:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:9:58: Name 'name_1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:14:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:17:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:20:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:24: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:25:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:28:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:28:33: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:32: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:37: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:44: Line is longer than 80 characters (found 81). [LineLength]
+Audit done.
+Checkstyle ends with 20 errors.
