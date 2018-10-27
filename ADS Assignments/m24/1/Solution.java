@@ -82,7 +82,10 @@ final class Solution {
         for (int i = 0; i < n; i++) {
             String str = sc.nextLine();
             String[] tokens = str.split(",");
-            s = new StudentDetails(tokens[0], tokens[1], Double.parseDouble(tokens[2]));
+            s = new StudentDetails(tokens[0], tokens[1], 
+                Double.parseDouble(tokens[2]));
+            l1.put(tokens[0], tokens[1]);
+            l2.put(tokens[0], Double.parseDouble(tokens[2]));
         }
         int m = Integer.parseInt(sc.nextLine());
         for (int i = 0; i < m; i++) {
