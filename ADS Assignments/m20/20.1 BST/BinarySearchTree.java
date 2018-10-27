@@ -380,6 +380,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      */
     private Node deleteMax(final Node x) {
         if (x.right == null) {
+            
             return x.left;
         }
         x.right = deleteMax(x.right);
