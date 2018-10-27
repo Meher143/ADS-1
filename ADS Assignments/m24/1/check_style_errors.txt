@@ -1,13 +1,8 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31:58: Name 'name_1' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:44: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:71: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:76:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:79: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:80: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:85: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:92: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:28:8: Unused @param tag for 'name_1'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31:54: 'name' hides a field. [HiddenField]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:31:54: Expected @param tag for 'name'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\1\Solution.java:85: Line is longer than 80 characters (found 88). [LineLength]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 5 errors.
