@@ -91,6 +91,8 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     }
     /**
      * put overloaded method.
+     * we traverse only one side so complexity is logN
+     * Time complexity is O(logN)
      *
      * @param      x      { Node }
      * @param      key    The key
@@ -117,7 +119,8 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     }
     /**
      * get method.
-     *
+     * we traverse only one side so complexity is logN
+     * Time complexity is O(logN)
      * @param      key   The key
      *
      * @return     { returns integer value }

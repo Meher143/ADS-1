@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m16\16.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
+Checkstyle ends with 1 errors.
