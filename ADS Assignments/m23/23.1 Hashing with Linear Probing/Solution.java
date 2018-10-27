@@ -41,7 +41,7 @@ public final class Solution {
                 }
                 temp = temp.replaceAll(", $", "");
                 System.out.println(temp + "}");
-                //break;
+                break;
                 default:
                 break;
             }
