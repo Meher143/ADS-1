@@ -40,7 +40,7 @@ final class Solution {
 		for (int i = 0; i < m; i++) {
 			String q = sc.nextLine();
 			String[] query = q.split(" ");
-			if (!l1.contains(query[2])) {
+			if (!l1.contains(query[1])) {
 				System.out.println("Student does not exists...");
 				continue;
 			}
