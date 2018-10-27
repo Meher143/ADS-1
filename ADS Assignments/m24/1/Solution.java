@@ -25,10 +25,11 @@ class StudentDetails {
      * Constructs the object.
      *
      * @param      rollno     The rollno
-     * @param      name_1     The name 1
+     * @param      name_1     The name
      * @param      totalmark  The totalmark
      */
-    StudentDetails(final String rollno, final String name, final double totalmark) {
+    StudentDetails(final String rollno, 
+        final String name, final double totalmark) {
         this.rollnumber = rollno;
         this.name = name;
         this.totalmarks = totalmark;
