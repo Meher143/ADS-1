@@ -1,0 +1,7 @@
+Starting audit...
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\2\Solution.java:28:8: Unused @param tag for 'name_1'. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\2\Solution.java:31: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\2\Solution.java:32:22: 'name' hides a field. [HiddenField]
+[ERROR] C:\Users\DELL\Desktop\ADS-1\ADS Assignments\m24\2\Solution.java:32:22: Expected @param tag for 'name'. [JavadocMethod]
+Audit done.
+Checkstyle ends with 4 errors.
