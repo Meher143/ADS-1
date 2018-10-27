@@ -36,7 +36,7 @@ class StudentDetails {
     /**
      * Gets the name.
      *
-     * @param    The name.
+     * @return    The name.
      */
     public String getName() {
         return name;
@@ -92,7 +92,7 @@ final class Solution {
             String q = sc.nextLine();
             String[] query = q.split(" ");
             if (!l1.contains(query[1])) {
-                System.out.println("Student does not exists...");
+                System.out.println("Student doesn't exists...");
                 continue;
             }
             switch (query[2]) {
